@@ -10,7 +10,7 @@ GROUP BY CustomerID;
 FROM Categories
 GROUP BY CategoryID;
 
-4.SELECT 	SupplierID, COUNT(*) AS OrderCount
+4.SELECT 	SupplierID, COUNT(*) AS ProductsCount
 FROM Products
 GROUP BY SupplierID;
 
